@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-14T13:04:00 GMT" name="Default suite" finished-at="2024-01-14T13:04:46 GMT" duration-ms="45980">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerPackage.CucumberRunner@221a3fa4]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-01-14T13:04:00 GMT" name="Default test" finished-at="2024-01-14T13:04:46 GMT" duration-ms="45980">
+      <class name="RunnerPackage.CucumberRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:RunnerPackage.CucumberRunner@221a3fa4]" started-at="2024-01-14T13:04:00 GMT" name="setUpClass" finished-at="2024-01-14T13:04:01 GMT" duration-ms="418" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7a8406c2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerPackage.CucumberRunner@221a3fa4]" started-at="2024-01-14T13:04:01 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-14T13:04:46 GMT" duration-ms="45471" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Adding a “Laptop” Item in Cart and verifying sub total"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Adding Second Item in Cart and verifying sub total"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:RunnerPackage.CucumberRunner@221a3fa4]" started-at="2024-01-14T13:04:46 GMT" name="tearDownClass" finished-at="2024-01-14T13:04:46 GMT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- RunnerPackage.CucumberRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
