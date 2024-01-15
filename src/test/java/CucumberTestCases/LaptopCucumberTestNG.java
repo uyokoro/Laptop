@@ -59,7 +59,7 @@ public class LaptopCucumberTestNG {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		amazonPageObjects.AddItemToCart();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		amazonPageObjects.NoThankYouButton();
+		amazonPageObjects.NoThanksButton();
 	  
 	}
 

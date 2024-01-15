@@ -25,7 +25,7 @@ public class LaptopPageObjects {
 	public WebElement AddItemToCart;
 	
 	@FindBy (xpath = "//input[@aria-labelledby='attachSiNoCoverage-announce']")
-	public WebElement NoThankYouButton;
+	public WebElement NoThanksButton;
 	
 	@FindBy (xpath = "//a[@href='/cart?ref_=sw_gtc']")
 	public WebElement ClickOnCart;
@@ -66,9 +66,9 @@ public class LaptopPageObjects {
 		AddItemToCart.click();
 	}
 	
-	public void NoThankYouButton () {
+	public void NoThanksButton () {
 		
-		NoThankYouButton.click();
+		NoThanksButton.click();
 	}
 	
 	public void ClickOnCart () {

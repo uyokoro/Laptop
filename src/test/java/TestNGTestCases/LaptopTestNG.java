@@ -25,7 +25,7 @@ public class LaptopTestNG {
 		amazonPageObjects.ClickOnSecondItem();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		amazonPageObjects.AddItemToCart();
-		amazonPageObjects.NoThankYouButton();
+		amazonPageObjects.NoThanksButton();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		amazonPageObjects.ClickOnCart();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
