@@ -2,46 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-15T10:23:15 GMT" name="Default suite" finished-at="2024-01-15T10:23:40 GMT" duration-ms="25195">
+  <suite started-at="2024-01-15T13:57:04 GMT" name="Default suite" finished-at="2024-01-15T13:57:31 GMT" duration-ms="26534">
     <groups>
-      <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerPackage.LaptopCucumberRunner@221a3fa4]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-      </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-01-15T10:23:15 GMT" name="Default test" finished-at="2024-01-15T10:23:40 GMT" duration-ms="25195">
-      <class name="RunnerPackage.LaptopCucumberRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:RunnerPackage.LaptopCucumberRunner@221a3fa4]" started-at="2024-01-15T10:23:15 GMT" name="setUpClass" finished-at="2024-01-15T10:23:15 GMT" duration-ms="339" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@10dc7d6]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2024-01-15T13:57:04 GMT" name="Default test" finished-at="2024-01-15T13:57:31 GMT" duration-ms="26534">
+      <class name="TestNGTestCases.LaptopTestNG">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:TestNGTestCases.LaptopTestNG@15043a2f]" started-at="2024-01-15T13:57:04 GMT" name="beforeTest" finished-at="2024-01-15T13:57:07 GMT" duration-ms="3271" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerPackage.LaptopCucumberRunner@221a3fa4]" started-at="2024-01-15T10:23:15 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-15T10:23:40 GMT" duration-ms="24710" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Adding a “Laptop” Item in Cart and verifying sub total"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Adding Second Item in Cart and verifying sub total"]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="f()[pri:0, instance:TestNGTestCases.LaptopTestNG@15043a2f]" started-at="2024-01-15T13:57:07 GMT" name="f" finished-at="2024-01-15T13:57:30 GMT" duration-ms="22547" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:RunnerPackage.LaptopCucumberRunner@221a3fa4]" started-at="2024-01-15T10:23:40 GMT" name="tearDownClass" finished-at="2024-01-15T10:23:40 GMT" duration-ms="0" status="PASS">
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestNGTestCases.LaptopTestNG@15043a2f]" started-at="2024-01-15T13:57:30 GMT" name="afterTest" finished-at="2024-01-15T13:57:31 GMT" duration-ms="636" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- RunnerPackage.LaptopCucumberRunner -->
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestNGTestCases.LaptopTestNG -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
