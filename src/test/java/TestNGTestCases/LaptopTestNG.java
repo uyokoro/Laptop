@@ -38,13 +38,11 @@ public class LaptopTestNG {
 		driver = new ChromeDriver ();
 		driver.get("https://www.amazon.co.uk/");
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
   }
 
   @AfterTest
   public void afterTest() {
-	  System.out.print(amazonPageObjects.ProductPageTotal);
-	  System.out.print(amazonPageObjects.ProductPageSubTotal);
+	  
 	  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	  driver.quit();
   }
